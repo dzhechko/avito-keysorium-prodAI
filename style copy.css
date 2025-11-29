@@ -1,0 +1,69 @@
+/* Custom scrollbar for a more subtle look */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9; /* slate-100 */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1; /* slate-300 */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8; /* slate-400 */
+}
+
+/* Prose overrides for better readability in content sections */
+.prose {
+    --tw-prose-body: theme(colors.slate.600);
+    --tw-prose-headings: theme(colors.slate.900);
+    --tw-prose-lead: theme(colors.slate.700);
+    --tw-prose-links: theme(colors.avito.blue);
+    --tw-prose-bold: theme(colors.slate.800);
+    --tw-prose-counters: theme(colors.slate.500);
+    --tw-prose-bullets: theme(colors.slate.300);
+    --tw-prose-hr: theme(colors.slate.200);
+    --tw-prose-quotes: theme(colors.slate.800);
+    --tw-prose-quote-borders: theme(colors.avito.blue);
+    --tw-prose-captions: theme(colors.slate.500);
+    --tw-prose-code: theme(colors.avito.blue);
+    --tw-prose-pre-code: theme(colors.slate.200);
+    --tw-prose-pre-bg: theme(colors.slate.800);
+    --tw-prose-th-borders: theme(colors.slate.300);
+    --tw-prose-td-borders: theme(colors.slate.200);
+}
+
+/* Active navigation link style */
+.nav-link.active {
+    @apply text-avito-blue bg-blue-50 font-semibold;
+}
+
+/* Custom animation for slower spin */
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 1.5s linear infinite;
+}
+
+/* Custom fade-in-up animation if not using Tailwind's JIT */
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animate-fade-in-up {
+    animation: fade-in-up 0.6s ease-out forwards;
+    opacity: 0; /* Start hidden */
+}

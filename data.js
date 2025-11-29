@@ -6,29 +6,29 @@ export const sections = [
         content: `
             <div class="grid md:grid-cols-5 gap-8">
                 <div class="md:col-span-3">
-                    <h3 class="text-xl font-bold text-slate-900 mb-4">Сложность и "Холодный старт" при подаче</h3>
-                    <p class="text-slate-600 mb-4 leading-relaxed">Текущий процесс подачи объявления (Create Item Flow, CIF) остаётся высоким барьером, особенно для частных продавцов в категории «Авто». Ручное заполнение множества технических параметров занимает в среднем <strong>3-5 минут</strong>. Этот процесс вызывает фрустрацию, провоцирует высокий процент отказов и создаёт эффект "холодного старта", когда пользователь откладывает продажу.</p>
+                    <h3 class="text-xl font-bold text-slate-900 mb-4">Барьеры при продаже вещей (Fashion)</h3>
+                    <p class="text-slate-600 mb-4 leading-relaxed">Процесс подачи объявления в категории «Одежда и обувь» часто прерывается из-за рутины. Пользователю нужно найти таблицу размеров, вспомнить точное название модели, определить состояние и придумать описание. Это занимает <strong>3-5 минут</strong>, что критично для сегмента C2C, где товары часто имеют низкий средний чек.</p>
                     <ul class="space-y-3 text-slate-600">
                         <li class="flex items-start gap-3">
                             <i data-lucide="clock-3" class="w-5 h-5 text-avito-blue shrink-0 mt-1"></i>
-                            <div><strong>Потеря времени:</strong> Необходимость вспоминать и вводить десятки атрибутов (модификация, комплектация, VIN) снижает конверсию в публикацию.</div>
+                            <div><strong>Трение ввода:</strong> Необходимость заполнять специфичные атрибуты (Бренд, Размер, Сезон, Состояние) вручную отпугивает "ленивых" продавцов.</div>
                         </li>
                         <li class="flex items-start gap-3">
-                            <i data-lucide="database-zap" class="w-5 h-5 text-avito-blue shrink-0 mt-1"></i>
-                            <div><strong>Неполнота данных:</strong> Пользователи пропускают необязательные поля, что снижает качество сниппета в выдаче и эффективность рекомендательных алгоритмов.</div>
+                            <i data-lucide="help-circle" class="w-5 h-5 text-avito-blue shrink-0 mt-1"></i>
+                            <div><strong>Неструктурированные данные:</strong> Пользователи пишут "размер по стельке 27см" в описании, но не указывают это в фильтрах, теряя трафик из поиска.</div>
                         </li>
                          <li class="flex items-start gap-3">
-                            <i data-lucide="search-slash" class="w-5 h-5 text-avito-blue shrink-0 mt-1"></i>
-                            <div><strong>Снижение ликвидности:</strong> Объявления с низким "качеством контента" получают меньше охватов, замедляя сделку и ухудшая общий UX платформы.</div>
+                            <i data-lucide="image-off" class="w-5 h-5 text-avito-blue shrink-0 mt-1"></i>
+                            <div><strong>Качество контента:</strong> Отсутствие деталей о дефектах или оригинальности приводит к лишним вопросам в чате и низкому доверию (Trust & Safety).</div>
                         </li>
                     </ul>
                 </div>
                 <div class="md:col-span-2 bg-blue-50 rounded-xl p-6 border border-blue-100">
                     <h3 class="text-avito-blue font-bold mb-3 flex items-center gap-2"><i data-lucide="target" class="w-5 h-5"></i> Миссия ПродAI</h3>
-                    <p class="text-slate-700 font-medium mb-3">Создать интеллектуальный интерфейс, который сокращает время подачи объявления до минимума, сохраняя при этом эталонную точность данных.</p>
+                    <p class="text-slate-700 font-medium mb-3">Сделать продажу вещей такой же простой, как отправка голосового сообщения другу.</p>
                     <div class="text-xs text-slate-500 space-y-2">
-                        <p><strong>Фокус-сегмент:</strong> Частные продавцы (C2C), Категория «Авто».</p>
-                        <p><strong>Цель:</strong> Трансформация процесса из "заполнения анкеты" в "интуитивный рассказ".</p>
+                        <p><strong>Фокус-сегмент:</strong> Частные продавцы (C2C), Категория «Одежда, обувь и аксессуары».</p>
+                        <p><strong>Цель:</strong> Снизить время подачи (Time-to-List) до < 1 минуты.</p>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ export const sections = [
         title: 'Решение: «Снимай и говори»',
         icon: 'wand-2',
         content: `
-            <p class="text-center text-slate-600 max-w-2xl mx-auto mb-10">В рамках инициативы <strong>«ПродAI»</strong> мы внедряем мультимодальный автозаполнитель. Пользователь больше не взаимодействует с формой напрямую — он просто показывает товар и рассказывает о нем.</p>
+            <p class="text-center text-slate-600 max-w-2xl mx-auto mb-10">В рамках инициативы <strong>«ПродAI»</strong> мы внедряем мультимодальный автозаполнитель. Пользователь просто показывает кроссовки и называет цену.</p>
             <div class="grid gap-6 md:grid-cols-3 text-center">
                 <div class="p-6 bg-white rounded-xl border border-slate-200 transition hover:border-avito-blue hover:shadow-lg">
                     <div class="flex items-center justify-center gap-3 mb-4">
@@ -47,17 +47,17 @@ export const sections = [
                          <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-avito-blue"><i data-lucide="mic"></i></div>
                     </div>
                     <h4 class="font-bold text-slate-800 mb-2">1. Мультимодальный захват</h4>
-                    <p class="text-sm text-slate-500">Продавец делает фото автомобиля и наговаривает описание: «Chevrolet Cruze 2018, пробег 85 тысяч, я второй владелец, есть зимняя резина, была царапина на бампере».</p>
+                    <p class="text-sm text-slate-500">Продавец делает фото кроссовок и говорит: «Эти Nike Air Max, размер 42, состояние отличное, цена 5000 руб».</p>
                 </div>
                 <div class="p-6 bg-white rounded-xl border border-slate-200 transition hover:border-avito-blue hover:shadow-lg">
                     <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-avito-blue mx-auto mb-4"><i data-lucide="brain-circuit"></i></div>
                     <h4 class="font-bold text-slate-800 mb-2">2. Анализ ПродAI</h4>
-                    <p class="text-sm text-slate-500">Система за 5-10 секунд обрабатывает потоки: Vision-модель считывает марку, цвет и дефекты. Voice-модель транскрибирует речь и извлекает структурированные данные (год, пробег, комплектация).</p>
+                    <p class="text-sm text-slate-500">Vision-модель распознает силуэт Air Max и цвет. Audio-модель вычленяет размер, цену и состояние. LLM объединяет это в JSON.</p>
                 </div>
                 <div class="p-6 bg-white rounded-xl border border-slate-200 transition hover:border-avito-blue hover:shadow-lg">
                     <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-avito-blue mx-auto mb-4"><i data-lucide="check-circle-2"></i></div>
-                    <h4 class="font-bold text-slate-800 mb-2">3. Smart-форма</h4>
-                    <p class="text-sm text-slate-500">Пользователь получает заполненный на 90% черновик. ПродAI подсвечивает неуверенные поля и предлагает проверить их, минимизируя риск ошибок.</p>
+                    <h4 class="font-bold text-slate-800 mb-2">3. Публикация</h4>
+                    <p class="text-sm text-slate-500">Черновик готов мгновенно. Категория, Бренд, Размер и Цена заполнены. Остается нажать «Разместить».</p>
                 </div>
             </div>
         `
@@ -69,7 +69,7 @@ export const sections = [
         content: `
             <p class="mb-6 text-slate-600 text-center max-w-3xl mx-auto">Решение использует гибридный пайплайн с параллельной обработкой (Parallel Streaming) для соблюдения SLA в <strong>5-10 секунд</strong>.</p>
             <div class="relative group cursor-pointer overflow-hidden rounded-xl border border-slate-200 bg-slate-50 mb-8" id="arch-img-container">
-                <img src="https://placehold.co/1200x600/f1f5f9/334155/png?text=Architecture+Diagram:+Client+%3E+Gateway+%3E+Vision/Audio+Experts+%3E+Fusion+LLM+%3E+JSON"
+                <img src="https://placehold.co/1200x600/f1f5f9/334155/png?text=Architecture:+Input(Photo+Voice)+%3E+Vision(Brand/Color)+Audio(Size/Price)+%3E+Fusion+LLM+%3E+Item+Attributes"
                      alt="Диаграмма архитектуры ПродAI"
                      class="w-full object-cover transition duration-500 group-hover:scale-[1.02]">
                 <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition flex items-center justify-center opacity-0 group-hover:opacity-100">
@@ -80,24 +80,22 @@ export const sections = [
             </div>
             <div class="grid md:grid-cols-2 gap-6">
                 <div class="p-6 bg-white rounded-lg border border-slate-200">
-                    <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2"><i data-lucide="arrow-down-up" class="text-avito-blue w-4 h-4"></i> Поток данных (Client-Server-LLM)</h4>
+                    <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2"><i data-lucide="arrow-down-up" class="text-avito-blue w-4 h-4"></i> Поток данных</h4>
                     <ol class="list-decimal list-inside space-y-2 text-sm text-slate-600">
-                        <li><strong>Клиент:</strong> Загрузка медиа на бэкенд. Optimistic UI отображает прогресс.</li>
-                        <li><strong>L1 Gateway:</strong> Маршрутизация и классификация категории (CLIP/ViT).</li>
-                        <li><strong>L2 Vision Expert:</strong> Fine-tuned LLaVA/Qwen-VL-Max (INT8) для анализа фото (VIN, номер, кузов).</li>
-                        <li><strong>L2 Audio Expert:</strong> Whisper v3 (Large) + Hermes-2 для извлечения сущностей из голоса.</li>
-                        <li><strong>L3 Fusion Core:</strong> GPT-4o / DeepSeek V2 агрегирует JSON, разрешает конфликты (фото > голос) и матчит атрибуты с таксономией Avito.</li>
-                        <li><strong>Ответ:</strong> JSON с данными и Confidence Score для подсветки полей.</li>
+                        <li><strong>Клиент:</strong> Загрузка фото кроссовок + аудиострим.</li>
+                        <li><strong>L1 Gateway:</strong> Классификация категории (Clip: "Shoes"). Маршрутизация на Fashion-воркеры.</li>
+                        <li><strong>L2 Vision Expert:</strong> LLaVA / Qwen-VL (Fashion fine-tune) определяет бренд (Nike), модель (Air Max), цвет и видимый износ.</li>
+                        <li><strong>L2 Audio Expert:</strong> Whisper v3 извлекает: {size: 42, price: 5000, condition: "excellent"}.</li>
+                        <li><strong>L3 Fusion Core:</strong> LLM (GPT-4o-mini / DeepSeek) матчит "42" с сеткой бренда (US/EU) и формирует JSON.</li>
                     </ol>
                 </div>
                  <div class="p-6 bg-white rounded-lg border border-slate-200">
                     <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2"><i data-lucide="server-cog" class="text-avito-blue w-4 h-4"></i> Технологический стек</h4>
                      <ul class="space-y-3 text-sm text-slate-600">
-                        <li class="flex gap-2 items-start"><strong class="font-semibold text-slate-700 w-32 shrink-0">Frontend:</strong><span>MediaRecorder API, Optimistic UI.</span></li>
-                        <li class="flex gap-2 items-start"><strong class="font-semibold text-slate-700 w-32 shrink-0">Backend:</strong><span>Go/Python (FastAPI), gRPC.</span></li>
-                        <li class="flex gap-2 items-start"><strong class="font-semibold text-slate-700 w-32 shrink-0">Inference:</strong><span>vLLM / TensorRT-LLM на GPU A100.</span></li>
-                        <li class="flex gap-2 items-start"><strong class="font-semibold text-slate-700 w-32 shrink-0">Модели:</strong><span>Qwen-VL, Whisper V3, DeepSeek (Quantized INT8).</span></li>
-                        <li class="flex gap-2 items-start"><strong class="font-semibold text-slate-700 w-32 shrink-0">Storage:</strong><span>PostgreSQL, PGVector (для поиска по атрибутам).</span></li>
+                        <li class="flex gap-2 items-start"><strong class="font-semibold text-slate-700 w-32 shrink-0">Frontend:</strong><span>MediaRecorder API, Canvas (image resize).</span></li>
+                        <li class="flex gap-2 items-start"><strong class="font-semibold text-slate-700 w-32 shrink-0">Backend:</strong><span>Go (Orchestrator), Python (Inference).</span></li>
+                        <li class="flex gap-2 items-start"><strong class="font-semibold text-slate-700 w-32 shrink-0">Vision:</strong><span>Qwen-VL-Chat (Int8) для детекции логотипов и тегов.</span></li>
+                        <li class="flex gap-2 items-start"><strong class="font-semibold text-slate-700 w-32 shrink-0">ASR/NLP:</strong><span>Whisper V3 + Custom NER для извлечения размеров/цен.</span></li>
                     </ul>
                 </div>
             </div>
@@ -108,22 +106,22 @@ export const sections = [
         title: 'Интеграция в экосистему',
         icon: 'git-merge',
         content: `
-            <p class="text-center text-slate-600 max-w-2xl mx-auto mb-10">ПродAI бесшовно встраивается в существующие процессы Avito, усиливая их за счет генеративных технологий.</p>
+            <p class="text-center text-slate-600 max-w-2xl mx-auto mb-10">ПродAI усиливает существующие вертикали Avito новыми возможностями генеративного AI.</p>
             <div class="grid md:grid-cols-3 gap-6">
                 <div class="p-6 bg-white rounded-lg border border-slate-200">
-                    <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2"><i data-lucide="edit" class="text-avito-blue w-4 h-4"></i> 1. Форма подачи (CIF)</h4>
-                    <p class="text-sm text-slate-600 mb-3">Новая точка входа: кнопка <strong>«Заполнить через ПродAI»</strong> на экране выбора категории. Запускает интерфейс камеры и микрофона.</p>
-                    <span class="text-xs font-bold uppercase text-green-600">Ускорение Time-to-List</span>
+                    <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2"><i data-lucide="edit" class="text-avito-blue w-4 h-4"></i> 1. Smart Posting</h4>
+                    <p class="text-sm text-slate-600 mb-3">Точка входа в категории "Личные вещи". Вместо анкеты — интерфейс камеры. Снижает Drop-off rate на этапе создания.</p>
+                    <span class="text-xs font-bold uppercase text-green-600">Рост конверсии в листинг</span>
                 </div>
                 <div class="p-6 bg-white rounded-lg border border-slate-200">
-                    <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2"><i data-lucide="shield-check" class="text-avito-blue w-4 h-4"></i> 2. Trust & Safety</h4>
-                    <p class="text-sm text-slate-600 mb-3">Автоматическая кросс-валидация. Если голос говорит "не бита", а Vision видит вмятину — объявление маркируется для ручной модерации.</p>
-                    <span class="text-xs font-bold uppercase text-green-600">Контроль качества</span>
+                    <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2"><i data-lucide="shield-check" class="text-avito-blue w-4 h-4"></i> 2. Legit Check (Пре-скоринг)</h4>
+                    <p class="text-sm text-slate-600 mb-3">Vision-модель проверяет фото на наличие запрещенных товаров или явных подделок (по качеству логотипа) перед модерацией.</p>
+                    <span class="text-xs font-bold uppercase text-green-600">Безопасность сделки</span>
                 </div>
                 <div class="p-6 bg-white rounded-lg border border-slate-200">
-                    <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2"><i data-lucide="search" class="text-avito-blue w-4 h-4"></i> 3. Поиск и Рекомендации</h4>
-                    <p class="text-sm text-slate-600 mb-3">Обогащение индекса скрытыми атрибутами ("зимняя резина", "панорама"), которые пользователи забывают указать вручную.</p>
-                    <span class="text-xs font-bold uppercase text-green-600">Рост релевантности</span>
+                    <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2"><i data-lucide="search" class="text-avito-blue w-4 h-4"></i> 3. Поиск и Фильтры</h4>
+                    <p class="text-sm text-slate-600 mb-3">Автоматическое заполнение фильтров (Размер: 42, Цвет: Белый) делает товар видимым для целевых покупателей.</p>
+                    <span class="text-xs font-bold uppercase text-green-600">Рост ликвидности</span>
                 </div>
             </div>
         `
@@ -139,15 +137,15 @@ export const sections = [
                      <ul class="space-y-4 text-green-900/80">
                         <li class="flex items-start gap-3">
                             <i data-lucide="rocket" class="w-5 h-5 shrink-0 mt-1"></i>
-                            <div><strong>Скорость:</strong> Создание объявления занимает менее 2 минут. Исчезает страх перед сложной формой.</div>
+                            <div><strong>Скорость:</strong> Объявление готово за 1 минуту. Не нужно печатать текст на смартфоне.</div>
                         </li>
                         <li class="flex items-start gap-3">
-                            <i data-lucide="mouse-pointer-click" class="w-5 h-5 shrink-0 mt-1"></i>
-                            <div><strong>Удобство:</strong> Естественный интерфейс ("покажи и скажи"), снижающий когнитивную нагрузку.</div>
+                            <i data-lucide="check" class="w-5 h-5 shrink-0 mt-1"></i>
+                            <div><strong>Точность:</strong> ПродAI сам определит категорию и подскажет, если цена сильно ниже рыночной.</div>
                         </li>
                          <li class="flex items-start gap-3">
                             <i data-lucide="trending-up" class="w-5 h-5 shrink-0 mt-1"></i>
-                            <div><strong>Эффективность:</strong> Заполненные объявления получают больше просмотров и продаются быстрее.</div>
+                            <div><strong>Продажи:</strong> Структурированные объявления с полными характеристиками получают больше просмотров.</div>
                         </li>
                     </ul>
                 </div>
@@ -156,15 +154,15 @@ export const sections = [
                      <ul class="space-y-4 text-blue-900/80">
                         <li class="flex items-start gap-3">
                             <i data-lucide="database" class="w-5 h-5 shrink-0 mt-1"></i>
-                            <div><strong>Enriched Data:</strong> Рост полноты атрибутов на 40-50%, что улучшает работу поисковых алгоритмов.</div>
+                            <div><strong>Structured Data:</strong> На 40% больше объявлений с заполненными полями «Бренд» и «Размер», что улучшает фасетный поиск.</div>
                         </li>
                         <li class="flex items-start gap-3">
                             <i data-lucide="user-check" class="w-5 h-5 shrink-0 mt-1"></i>
-                            <div><strong>Loyalty:</strong> "Вау-эффект" от использования AI повышает метрики удержания (Retention).</div>
+                            <div><strong>Retention:</strong> Уникальный UX (Voice+Vision) выделяет Avito среди конкурентов и повышает лояльность зумеров.</div>
                         </li>
                          <li class="flex items-start gap-3">
-                            <i data-lucide="dollar-sign" class="w-5 h-5 shrink-0 mt-1"></i>
-                            <div><strong>Cost Efficiency:</strong> Снижение нагрузки на модерацию за счет AI-прескоринга контента.</div>
+                            <i data-lucide="layers" class="w-5 h-5 shrink-0 mt-1"></i>
+                            <div><strong>Content Quality:</strong> Снижение доли объявлений с описанием "продаю кроссы" без деталей.</div>
                         </li>
                     </ul>
                 </div>
@@ -189,33 +187,27 @@ export const sections = [
                     <tbody>
                         <tr class="bg-white border-b hover:bg-slate-50 transition">
                             <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap">Time-to-List</th>
-                            <td class="px-6 py-4 font-bold text-green-600">< 2 минут</td>
-                            <td class="px-6 py-4">~3-5 минут</td>
-                            <td class="px-6 py-4">Ключевой показатель удобства.</td>
+                            <td class="px-6 py-4 font-bold text-green-600">< 60 сек</td>
+                            <td class="px-6 py-4">~3-4 мин</td>
+                            <td class="px-6 py-4">Время от старта до кнопки "Опубликовать".</td>
                         </tr>
                         <tr class="bg-white border-b hover:bg-slate-50 transition">
-                            <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap">Autofill Acceptance</th>
-                            <td class="px-6 py-4 font-bold text-green-600">> 80%</td>
+                            <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap">Autofill Accuracy</th>
+                            <td class="px-6 py-4 font-bold text-green-600">> 95%</td>
                             <td class="px-6 py-4">N/A</td>
-                            <td class="px-6 py-4">Доля полей, принятых пользователем без правок.</td>
+                            <td class="px-6 py-4">Точность определения бренда и размера.</td>
                         </tr>
                         <tr class="bg-white border-b hover:bg-slate-50 transition">
-                            <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap">Attribute Fill Rate</th>
-                            <td class="px-6 py-4 font-bold text-green-600">> 90%</td>
-                            <td class="px-6 py-4">~55%</td>
-                            <td class="px-6 py-4">Полнота заполнения характеристик товара.</td>
-                        </tr>
-                        <tr class="bg-white border-b hover:bg-slate-50 transition">
-                            <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap">Conversion Uplift</th>
-                             <td class="px-6 py-4 font-bold text-green-600">+20%</td>
-                            <td class="px-6 py-4">Baseline</td>
-                            <td class="px-6 py-4">Рост конверсии из поиска в контакт.</td>
+                            <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap">Filter Usage</th>
+                            <td class="px-6 py-4 font-bold text-green-600">100%</td>
+                            <td class="px-6 py-4">~60%</td>
+                            <td class="px-6 py-4">Полнота заполнения полей (Размер, Бренд).</td>
                         </tr>
                         <tr class="bg-white hover:bg-slate-50 transition">
                             <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap">Processing Latency</th>
-                            <td class="px-6 py-4 font-bold text-green-600">< 10 секунд</td>
+                            <td class="px-6 py-4 font-bold text-green-600">< 5-7 сек</td>
                             <td class="px-6 py-4">N/A</td>
-                            <td class="px-6 py-4">SLA для сохранения "магии" UX.</td>
+                            <td class="px-6 py-4">Быстрая магия для удержания внимания.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -233,32 +225,31 @@ export const sections = [
                         <tr>
                             <th scope="col" class="px-6 py-3">Риск</th>
                             <th scope="col" class="px-6 py-3">Вероятность</th>
-                            <th scope="col" class="px-6 py-3">Стратегия митигации (ПродAI)</th>
+                            <th scope="col" class="px-6 py-3">Стратегия митигации</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="bg-white border-b hover:bg-slate-50 transition">
-                            <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap">Галлюцинации LLM</th>
+                            <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap">Ошибки распознавания (Галлюцинации)</th>
                             <td class="px-6 py-4"><span class="px-2 py-1 bg-red-100 text-red-700 rounded-md text-xs">Высокая</span></td>
                             <td class="px-6 py-4">
-                                1. <strong>Confidence Score:</strong> Явная подсветка неуверенных данных.<br>
-                                2. <strong>Ground Truth:</strong> Приоритет данных Vision (VIN, приборная панель) над голосом.
+                                1. <strong>Confidence Score:</strong> Если модель не уверена в размере (видно плохо), поле остается пустым для ручного ввода.<br>
+                                2. <strong>Human-in-the-loop:</strong> Просим подтвердить критичные поля.
                             </td>
                         </tr>
                         <tr class="bg-white border-b hover:bg-slate-50 transition">
-                            <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap">Latency > 10 сек</th>
+                            <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap">Шум и акцент в аудио</th>
                             <td class="px-6 py-4"><span class="px-2 py-1 bg-orange-100 text-orange-700 rounded-md text-xs">Средняя</span></td>
                             <td class="px-6 py-4">
-                                1. <strong>Optimistic UI:</strong> Асинхронное заполнение полей.<br>
-                                2. <strong>Optimization:</strong> Квантизация моделей (INT8), vLLM, Streaming API.
+                                1. <strong>Whisper Large v3:</strong> Отлично справляется с русским языком и акцентами.<br>
+                                2. <strong>Context:</strong> Использование данных Vision для коррекции (если слышим "Адидас", а видим "Найк" -> приоритет Vision).
                             </td>
                         </tr>
                         <tr class="bg-white border-b hover:bg-slate-50 transition">
-                            <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap">Privacy (Голос)</th>
-                            <td class="px-6 py-4"><span class="px-2 py-1 bg-orange-100 text-orange-700 rounded-md text-xs">Средняя</span></td>
+                            <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap">Неверная категория</th>
+                            <td class="px-6 py-4"><span class="px-2 py-1 bg-blue-100 text-blue-700 rounded-md text-xs">Низкая</span></td>
                             <td class="px-6 py-4">
-                                1. <strong>Diarization:</strong> Удаление посторонних голосов.<br>
-                                2. <strong>Policy:</strong> Прозрачное согласие на обработку аудио для заполнения.
+                                Использование CLIP (Contrastive Language-Image Pre-training) для надежной классификации изображения товара до запуска тяжелых LLM.
                             </td>
                         </tr>
                     </tbody>
@@ -268,10 +259,10 @@ export const sections = [
     },
     {
         id: 'example',
-        title: 'Сценарий: Продажа Авто',
-        icon: 'car',
+        title: 'Сценарий: Продажа Кроссовок',
+        icon: 'shopping-bag',
         content: `
-            <p class="text-center text-slate-600 max-w-2xl mx-auto mb-10">User Journey: как ПродAI помогает частному продавцу создать идеальное объявление.</p>
+            <p class="text-center text-slate-600 max-w-2xl mx-auto mb-10">User Journey: продажа ненужной пары обуви за 30 секунд.</p>
             <div class="bg-white rounded-xl border border-slate-200 p-6 md:p-8">
                 <ol class="relative border-l border-slate-200 space-y-12">
                     <li class="ml-8">
@@ -279,37 +270,37 @@ export const sections = [
                             <i data-lucide="mouse-pointer-click" class="w-4 h-4 text-avito-blue"></i>
                         </span>
                         <h3 class="font-bold text-slate-800 mb-1">Шаг 1: Старт</h3>
-                        <p class="text-sm text-slate-500">Пользователь нажимает «Продать» и выбирает опцию <strong>«Ускорить с ПродAI»</strong>.</p>
+                        <p class="text-sm text-slate-500">Пользователь нажимает «Разместить» и выбирает камеру.</p>
                     </li>
                     <li class="ml-8">
                         <span class="absolute flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full -left-4 ring-8 ring-white">
                             <i data-lucide="video" class="w-4 h-4 text-avito-blue"></i>
                         </span>
-                        <h3 class="font-bold text-slate-800 mb-1">Шаг 2: Съемка и Рассказ</h3>
-                        <p class="text-sm text-slate-500">Наводит камеру на авто и говорит:</p>
-                        <blockquote class="mt-2 text-sm italic text-slate-600 border-l-2 border-avito-blue pl-3 py-1">"Продаю Chevrolet Cruze 2018 года. Пробег сто сорок пять тысяч. Я второй владелец, ПТС оригинал. 1.8 автомат. Была небольшая авария, но все починили."</blockquote>
+                        <h3 class="font-bold text-slate-800 mb-1">Шаг 2: Фото и Голос</h3>
+                        <p class="text-sm text-slate-500">Фотографирует кроссовки сбоку и надиктовывает:</p>
+                        <blockquote class="mt-2 text-sm italic text-slate-600 border-l-2 border-avito-blue pl-3 py-1">"Эти Nike Air Max, размер 42, состояние отличное, цена 5000 руб. Носил пару раз в зале."</blockquote>
                     </li>
                     <li class="ml-8">
                         <span class="absolute flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full -left-4 ring-8 ring-white">
                             <i data-lucide="loader" class="w-4 h-4 text-avito-blue animate-spin"></i>
                         </span>
-                        <h3 class="font-bold text-slate-800 mb-1">Шаг 3: Магия ПродAI (5-10 сек)</h3>
+                        <h3 class="font-bold text-slate-800 mb-1">Шаг 3: Магия ПродAI</h3>
                         <p class="text-sm text-slate-500">
-                            • <strong>Vision:</strong> Определяет "Chevrolet Cruze", белый седан, литые диски.<br>
-                            • <strong>Audio:</strong> Извлекает: {год: 2018, пробег: 145000, владельцы: 2, дтп: true}.
+                            • <strong>Vision:</strong> Бренд=Nike, Модель=Air Max 90, Цвет=White/Red.<br>
+                            • <strong>Audio:</strong> Размер=42, Цена=5000, Состояние=Отличное.
                         </p>
                     </li>
                      <li class="ml-8">
                         <span class="absolute flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full -left-4 ring-8 ring-white">
                             <i data-lucide="file-check-2" class="w-4 h-4 text-avito-blue"></i>
                         </span>
-                        <h3 class="font-bold text-slate-800 mb-1">Шаг 4: Результат</h3>
-                        <p class="text-sm text-slate-500">Форма заполнена. Поля "Состояние" и "ДТП" подсвечены для проверки.</p>
+                        <h3 class="font-bold text-slate-800 mb-1">Шаг 4: Готовое объявление</h3>
+                        <p class="text-sm text-slate-500">Поля заполнены. Пользователь видит превью и нажимает «Опубликовать».</p>
                          <div class="mt-3 p-4 bg-slate-50 border border-dashed rounded-lg space-y-2 text-sm">
-                           <p><strong>Авто:</strong> Chevrolet Cruze (2018) <i data-lucide="mic" class="inline w-3 h-3 text-slate-400"></i></p>
-                           <p><strong>Пробег:</strong> 145 000 км <i data-lucide="mic" class="inline w-3 h-3 text-slate-400"></i></p>
-                           <p><strong>Цвет:</strong> Белый <i data-lucide="camera" class="inline w-3 h-3 text-slate-400"></i></p>
-                           <p><strong>Состояние:</strong> <span class="bg-yellow-100/80 px-1 rounded text-yellow-700 font-medium">Битый / Ремонт</span> (AI обнаружил несоответствие)</p>
+                           <p><strong>Товар:</strong> Кроссовки Nike Air Max <i data-lucide="camera" class="inline w-3 h-3 text-slate-400"></i></p>
+                           <p><strong>Размер:</strong> 42 EU <i data-lucide="mic" class="inline w-3 h-3 text-slate-400"></i></p>
+                           <p><strong>Цена:</strong> 5 000 ₽ <i data-lucide="mic" class="inline w-3 h-3 text-slate-400"></i></p>
+                           <p><strong>Состояние:</strong> Отличное <i data-lucide="mic" class="inline w-3 h-3 text-slate-400"></i></p>
                          </div>
                     </li>
                 </ol>
@@ -320,25 +311,26 @@ export const sections = [
 ];
 
 export const demoData = {
+    resultTitle: "Nike Air Max, 42",
+    resultSubtitle: "Данные извлечены из фото и голоса",
     loadingSteps: [
-        "Загрузка медиа в ПродAI...",
-        "Vision: анализ геометрии кузова...",
-        "Audio: транскрибация речи...",
-        "NLP: извлечение атрибутов...",
-        "Fusion: разрешение конфликтов...",
-        "Генерация продающего описания...",
-        "Финальная сборка объявления..."
+        "Загрузка медиа (Photo + Voice)...",
+        "Vision: поиск объекта 'Обувь'...",
+        "Vision: определение бренда (Nike)...",
+        "Audio: транскрибация 'размер 42'...",
+        "NLP: структурирование атрибутов...",
+        "Проверка на соответствие (Validation)...",
+        "Генерация описания..."
     ],
     fields: [
-        { label: "Категория", value: "Авто > Chevrolet > Cruze", confidence: 0.99, source: 'vision' },
-        { label: "Год выпуска", value: "2018", confidence: 0.98, source: 'voice' },
-        { label: "Пробег", value: "85 000 км", confidence: 0.95, source: 'voice' },
-        { label: "Кузов", value: "Седан", confidence: 0.97, source: 'vision' },
-        { label: "Цвет", value: "Белый", confidence: 0.92, source: 'vision' },
-        { label: "Двигатель", value: "1.8 л / 141 л.с. / Бензин", confidence: 0.89, source: 'voice' },
-        { label: "Коробка", value: "Автоматическая", confidence: 0.96, source: 'voice' },
-        { label: "Владельцев", value: "2", confidence: 0.93, source: 'voice' },
-        { label: "Состояние", value: "Не битый", confidence: 0.85, source: 'conflict' }
+        { label: "Категория", value: "Одежда, обувь > Мужская обувь", confidence: 0.99, source: 'vision' },
+        { label: "Бренд", value: "Nike", confidence: 0.99, source: 'vision' },
+        { label: "Модель", value: "Air Max", confidence: 0.95, source: 'voice' },
+        { label: "Размер", value: "42", confidence: 0.98, source: 'voice' },
+        { label: "Цвет", value: "Белый / Красный", confidence: 0.92, source: 'vision' },
+        { label: "Состояние", value: "Отличное", confidence: 0.96, source: 'voice' },
+        { label: "Цена", value: "5 000 ₽", confidence: 0.99, source: 'voice' },
+        { label: "Оригинал", value: "Да (Предварительно)", confidence: 0.85, source: 'vision' }
     ],
-    description: "Продаю Chevrolet Cruze 2018 года. Автомобиль в белом цвете, кузов седан. Надежный двигатель 1.8 на автомате. Пробег 85 000 км, я второй владелец. Машина в хорошем техническом состоянии, есть комплект резины."
+    description: "Продаю кроссовки Nike Air Max, размер 42. Цвет белый с красными элементами. Состояние отличное, носил пару раз. Цена 5000 руб. Возможен небольшой торг."
 };

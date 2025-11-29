@@ -187,14 +187,14 @@ function setupDemoModal() {
                 <div class="p-4 bg-white rounded-lg border border-slate-200 shadow-sm">
                      <div class="flex gap-4">
                         <div class="w-24 h-24 bg-slate-100 rounded-lg overflow-hidden shrink-0 relative">
-                            <img src="https://placehold.co/200x200/e2e8f0/64748b/png?text=Car" alt="Preview" class="w-full h-full object-cover">
+                            <img src="https://placehold.co/200x200/e2e8f0/64748b/png?text=Sneakers" alt="Preview" class="w-full h-full object-cover">
                         </div>
                         <div class="flex-1">
                             <div class="text-xs text-avito-green font-bold uppercase mb-1 flex items-center gap-1">
                                 <i data-lucide="check-circle-2" class="w-3 h-3"></i> Распознано
                             </div>
-                            <h4 class="font-bold text-slate-900 text-lg">Chevrolet Cruze, 2018</h4>
-                            <p class="text-sm text-slate-500 mt-1">Данные извлечены из фото и голоса</p>
+                            <h4 class="font-bold text-slate-900 text-lg">${demoData.resultTitle || 'Товар определен'}</h4>
+                            <p class="text-sm text-slate-500 mt-1">${demoData.resultSubtitle || 'Данные извлечены успешно'}</p>
                         </div>
                     </div>
                 </div>
